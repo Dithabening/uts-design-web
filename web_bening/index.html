@@ -1,0 +1,59 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Welcome</title>
+</head>
+
+<body>
+  <!-- header start -->
+  <div class="header">
+    <a href="https://www.instagram.com/dithabening/?hl=id" class="title">Liga Spanyol</a>
+    <a href=""><i class="fa fa-user-circle-o"></i></a>
+  </div>
+  <!-- header end -->
+
+  <!-- content start -->
+  <div class="container">
+    <div class="content-slide">
+      <div class="imgslide fade">
+        <img class="imghome" src="asset\home.jpg" alt="" />
+      </div>
+      <div class="imgslide fade">
+        <img class="imghome" src="asset\home2.jpg" alt="" />
+      </div>
+      <div class="imgslide fade">
+        <img class="imghome" src="asset\home3.png" alt="" />
+      </div>
+      <a class="prev" onClick="nextslide(-1)">&#10094;</a>
+      <a class="next" onClick="nextslide(1)">&#10095;</a>
+    </div>
+    <div class="page">
+      <span class="slide" onClick="dotslide(1)"></span>
+      <span class="slide" onClick="dotslide(2)"></span>
+      <span class="slide" onClick="dotslide(3)"></span>
+    </div>
+    <section class="home">
+      <h5>Dapatkan berita tentang berita bola di Liga Spanyol</h5>
+      <p>Semua berita liga spanyol terupdate hanya ada disini.</p>
+      <a class="submit" href="trend.html">More Info</a>
+    </section>
+  </div>
+  <!-- content end -->
+
+  <!-- footer start -->
+  <div class="copyright">
+    <h4>&copy; 2022. from Ditha Bening for you.</h4>
+  </div>
+  <!-- footer end -->
+</body>
+<script src="app.js"></script>
+
+</html>
